@@ -1,0 +1,123 @@
+
+
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Abominable Games</title>
+    <script>
+        function redirectToNewURL(event) {
+            if (event.keyCode === 221) {
+                var newURL = 'https://classroom.google.com/?pli=1';
+                
+                window.location.href = newURL;
+            }
+        }
+
+        window.addEventListener('keydown', redirectToNewURL);
+    </script>
+    <link rel="stylesheet" type="text/css" href="Site Folder/AG.css">
+    <link rel="stylesheet" type="text/css" href="Site Folder/Background.css">
+    <link rel="stylesheet" type="text/css" href="Site Folder/Blank1.css">
+    <link rel="stylesheet" type="text/css" href="Site Folder/Blank2.css">
+    <link rel="icon" type="image/x-icon" href="Site Folder/Images/AGlogo-removebg-preview.png">
+
+    </head>
+    <body>
+
+        <script>
+        function createwprxy() {
+            
+            var urlObj = new window.URL(window.location.href);
+        var url = "https://hjcitvr-8080.csb.app/service/gateway?url="+document.getElementById("prxy");
+
+        if (url) {
+            var win;
+
+            document.querySelector('button').onclick = function() {
+                if (win) {
+                    win.focus();
+                } else {
+                    win = window.open();
+                    win.document.body.style.margin = '0';
+                    win.document.body.style.height = '100vh';
+                    var iframe = win.document.createElement('iframe');
+                    iframe.style.border = 'none';
+                    iframe.style.width = '100%';
+                    iframe.style.height = '100%';
+                    iframe.style.margin = '0';
+                    iframe.src = url;
+                    win.document.body.appendChild(iframe);
+                    
+
+                    var interval = setInterval(function() {
+                        if (win.closed) {
+                            clearInterval(interval);
+                            win = undefined;
+
+                        }
+                    }, 500);
+
+
+                }
+            };
+        }
+
+        }
+        </script>
+		<script>
+                function createnprxy() {
+            
+            		let w = window.open();
+                    w.document.open();
+                    w.document.write('<iframe src="'+document.getElementById('none').value+'" width="100%" height="100%" border="none"></iframe>');
+                    
+        }        const favicon = document.getElementById("favicon"); 
+        </script>
+        <h2 class="search-title" id="Title"> Abominable Games </h2>
+		<l <input placeholder="" id='none' class="text-field" autofocus>
+        <hr class="rounded">
+</div>
+    <table>
+      <tr>
+        <th>
+          <a href="Index.html">
+          </a>
+        </th>
+        <th>
+
+          <a href="Site Folder/Home.html" style="text-decoration: none; color: inherit;"><u><img src="Site Folder/Images/HeadAG.png" alt="Home"style="height="30" width="75">
+</a>
+        </th>
+        <th>
+          <a href="Site Folder/Chat Room.html" style="text-decoration: none; color: inherit;">Chat</a>
+        </th>
+        <th>
+          <a href="Site Folder/Games.html" style="text-decoration: none; color: inherit;">Games</a>
+        </th>
+        <th>
+          <a href="Site Folder/Sites.html" style="text-decoration: none; color: inherit;">Search</a>
+        </th>
+        <th>
+          <a href="Site Folder/Apps.html" style="text-decoration: none; color: inherit;">Apps</a>
+        </th>
+        <th>
+          <a href="Site Folder/Settings.html" style="text-decoration: none; color: inherit;">Settings</a>
+        </th>
+
+      </tr>
+    </table>
+
+<br><br><br><br>
+        <h1> What is Abominable Games? <h1>
+<br>
+<h3> Abominable Games is an original project to mix downloadable aspects, with the aspect of a website. If you are seeing this, you are either using the file version of Abominable Games, or the website version. Both have pros and cons, but are still great to use.</h3>
+<br>
+<br>
+          <a href="https://discord.com/invite/qw7Hgj6BQn" style="text-decoration: none; color: inherit;"><u><img src="Site Folder/Images/Discord.png" alt="Home"style="height="30" width="75">
+
+    </body>
+</html>
+
