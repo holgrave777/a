@@ -1,0 +1,622 @@
+
+
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Abominable Games</title>
+    <script>
+        function redirectToNewURL(event) {
+            if (event.keyCode === 221) {
+                var newURL = 'https://classroom.google.com/?pli=1';
+                
+                window.location.href = newURL;
+            }
+        }
+
+        window.addEventListener('keydown', redirectToNewURL);
+    </script>
+    <link rel="stylesheet" type="text/css" href="AG.css">
+    <link rel="stylesheet" type="text/css" href="Background.css">
+    <link rel="stylesheet" type="text/css" href="Blank1.css">
+    <link rel="stylesheet" type="text/css" href="Blank2.css">
+    <link rel="icon" type="image/x-icon" href="Images/AGlogo-removebg-preview.png">
+    </head>
+    <body>
+        <script>
+        function createwprxy() {
+            
+            var urlObj = new window.URL(window.location.href);
+        var url = "https://hjctvr-8080.csb.app/service/gateway?url="+document.getElementById("prxy");
+
+        if (url) {
+            var win;
+
+            document.querySelector('button').onclick = function() {
+                if (win) {
+                    win.focus();
+                } else {
+                    win = window.open();
+                    win.document.body.style.margin = '0';
+                    win.document.body.style.height = '100vh';
+                    var iframe = win.document.createElement('iframe');
+                    iframe.style.border = 'none';
+                    iframe.style.width = '100%';
+                    iframe.style.height = '100%';
+                    iframe.style.margin = '0';
+                    iframe.src = url;
+                    win.document.body.appendChild(iframe);
+                    
+
+                    var interval = setInterval(function() {
+                        if (win.closed) {
+                            clearInterval(interval);
+                            win = undefined;
+
+                        }
+                    }, 500);
+
+
+                }
+            };
+        }
+
+        }
+        </script>
+		<script>
+                function createnprxy() {
+            
+            		let w = window.open();
+                    w.document.open();
+                    w.document.write('<iframe src="'+document.getElementById('none').value+'" width="100%" height="100%" border="none"></iframe>');
+                    
+        }        const favicon = document.getElementById("favicon"); 
+        </script>
+        <h2 class="search-title" id="Title"> Settings </h2>
+		<l <input placeholder="" id='none' class="text-field" autofocus>
+        <hr class="rounded">
+</div>
+    <table>
+      <tr>
+        <th>
+          <a href="Index.html">
+          </a>
+        </th>
+        <th>
+
+          <a href="Home.html" style="text-decoration: none; color: inherit;"><u><img src="Images/HeadAG.png" alt="Home"style="height="30" width="75"></a>
+        </th>
+        <th>
+          <a href="Chat Room.html" style="text-decoration: none; color: inherit;">Chat</a>
+        </th>
+        <th>
+          <a href="Games.html" style="text-decoration: none; color: inherit;">Games</a>
+        </th>
+        <th>
+          <a href="Sites.html" style="text-decoration: none; color: inherit;">Search</a>
+        </th>
+        <th>
+          <a href="Apps.html" style="text-decoration: none; color: inherit;">Apps</a>
+        </th>
+        <th>
+          <a href="Settings.html" style="text-decoration: none; color: inherit;"><u>Settings</u></a>
+        </th>
+
+      </tr>
+    </table>
+
+        <h2 class = "special">Tab Cloaking</h2>
+        <div class="btn-container">
+<button class="btn" onclick="opeNothing()">About:Blank</button>
+<script>function opeNothing() {
+  var win = window.open();
+  var url = "Settings.html";
+  var iframe = win.document.createElement('iframe');
+  iframe.style.width = "100%";
+  iframe.style.height = "100%";
+  iframe.style.border = "none";
+  iframe.style.position = "fixed";
+  iframe.style.top = "0";
+  iframe.style.left = "0";
+  iframe.src = url;
+  win.document.body.appendChild(iframe);
+
+  // Set the custom favicon
+  var link = win.document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/x-icon';
+  link.href = 'Images/AGlogo-removebg-preview-removebg-preview.png';
+  win.document.head.appendChild(link);
+
+  // Set the custom title
+  win.document.title = '';
+}</script>
+
+<button class="btn" onclick="opeAB()">Abominable Games</button>
+<script>function opeAB() {
+  var win = window.open();
+  var url = "Settings.html";
+  var iframe = win.document.createElement('iframe');
+  iframe.style.width = "100%";
+  iframe.style.height = "100%";
+  iframe.style.border = "none";
+  iframe.style.position = "fixed";
+  iframe.style.top = "0";
+  iframe.style.left = "0";
+  iframe.src = url;
+  win.document.body.appendChild(iframe);
+
+  // Set the custom favicon
+  var link = win.document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/x-icon';
+  link.href = 'Images/AGlogo-removebg-preview.png';
+  win.document.head.appendChild(link);
+
+  // Set the custom title
+  win.document.title = 'Abominable Games';
+}</script>
+
+<button class="btn" onclick="opeCanva()">Canva</button>
+<script>function opeCanva() {
+  var win = window.open();
+  var url = "Settings.html";
+  var iframe = win.document.createElement('iframe');
+  iframe.style.width = "100%";
+  iframe.style.height = "100%";
+  iframe.style.border = "none";
+  iframe.style.position = "fixed";
+  iframe.style.top = "0";
+  iframe.style.left = "0";
+  iframe.src = url;
+  win.document.body.appendChild(iframe);
+
+  // Set the custom favicon
+  var link = win.document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/x-icon';
+  link.href = 'Images/Canva.png';
+  win.document.head.appendChild(link);
+
+  // Set the custom title
+  win.document.title = 'Home - Canva';
+}</script>
+
+<button class="btn" onclick="opeClever()">Clever</button>
+<script>function opeClever() {
+  var win = window.open();
+  var url = "Settings.html";
+  var iframe = win.document.createElement('iframe');
+  iframe.style.width = "100%";
+  iframe.style.height = "100%";
+  iframe.style.border = "none";
+  iframe.style.position = "fixed";
+  iframe.style.top = "0";
+  iframe.style.left = "0";
+  iframe.src = url;
+  win.document.body.appendChild(iframe);
+
+  // Set the custom favicon
+  var link = win.document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/x-icon';
+  link.href = 'Images/Clever.png';
+  win.document.head.appendChild(link);
+
+  // Set the custom title
+  win.document.title = 'Clever | Connect every student to a world of learning';
+}</script>
+
+<button class="btn" onclick="opeDaaurrh()">Daaurrh</button>
+<script>function opeDaaurrh() {
+  var win = window.open();
+  var url = "Settings.html";
+  var iframe = win.document.createElement('iframe');
+  iframe.style.width = "100%";
+  iframe.style.height = "100%";
+  iframe.style.border = "none";
+  iframe.style.position = "fixed";
+  iframe.style.top = "0";
+  iframe.style.left = "0";
+  iframe.src = url;
+  win.document.body.appendChild(iframe);
+
+  // Set the custom favicon
+  var link = win.document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/x-icon';
+  link.href = 'Images/Daaurrh.png';
+  win.document.head.appendChild(link);
+
+  // Set the custom title
+  win.document.title = 'Daaurrh';
+}</script>
+
+<button class="btn" onclick="opeGmail()">Gmail</button>
+<script>function opeGmail() {
+  var win = window.open();
+  var url = "Settings.html";
+  var iframe = win.document.createElement('iframe');
+  iframe.style.width = "100%";
+  iframe.style.height = "100%";
+  iframe.style.border = "none";
+  iframe.style.position = "fixed";
+  iframe.style.top = "0";
+  iframe.style.left = "0";
+  iframe.src = url;
+  win.document.body.appendChild(iframe);
+
+  // Set the custom favicon
+  var link = win.document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/x-icon';
+  link.href = 'Images/Gmail.png';
+  win.document.head.appendChild(link);
+
+  // Set the custom title
+  win.document.title = 'Inbox';
+}</script>
+
+<button class="btn" onclick="opeChrome()">Google Chrome</button>
+<script>function opeChrome() {
+  var win = window.open();
+  var url = "Settings.html";
+  var iframe = win.document.createElement('iframe');
+  iframe.style.width = "100%";
+  iframe.style.height = "100%";
+  iframe.style.border = "none";
+  iframe.style.position = "fixed";
+  iframe.style.top = "0";
+  iframe.style.left = "0";
+  iframe.src = url;
+  win.document.body.appendChild(iframe);
+
+  // Set the custom favicon
+  var link = win.document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/x-icon';
+  link.href = 'Images/Google Chrome.png';
+  win.document.head.appendChild(link);
+
+  // Set the custom title
+  win.document.title = 'Google Chrome - The Fast & Secure Web Browser Built to be Yours';
+}</script>
+
+<button class="btn" onclick="opeGC()">Google Classroom</button>
+<script>function opeGC() {
+  var win = window.open();
+  var url = "Settings.html";
+  var iframe = win.document.createElement('iframe');
+  iframe.style.width = "100%";
+  iframe.style.height = "100%";
+  iframe.style.border = "none";
+  iframe.style.position = "fixed";
+  iframe.style.top = "0";
+  iframe.style.left = "0";
+  iframe.src = url;
+  win.document.body.appendChild(iframe);
+
+  // Set the custom favicon
+  var link = win.document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/x-icon';
+  link.href = 'Images/Google Classroom.png';
+  win.document.head.appendChild(link);
+
+  // Set the custom title
+  win.document.title = 'Home';
+}</script>
+
+<button class="btn" onclick="opeGDoc()">Google Docs</button>
+<script>function opeGDoc() {
+  var win = window.open();
+  var url = "Settings.html";
+  var iframe = win.document.createElement('iframe');
+  iframe.style.width = "100%";
+  iframe.style.height = "100%";
+  iframe.style.border = "none";
+  iframe.style.position = "fixed";
+  iframe.style.top = "0";
+  iframe.style.left = "0";
+  iframe.src = url;
+  win.document.body.appendChild(iframe);
+
+  // Set the custom favicon
+  var link = win.document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/x-icon';
+  link.href = 'Images/Google Docs.png';
+  win.document.head.appendChild(link);
+
+  // Set the custom title
+  win.document.title = 'Google Docs';
+}</script>
+
+<button class="btn" onclick="opeGD()">Google Drive</button>
+<script>function opeGD() {
+  var win = window.open();
+  var url = "Settings.html";
+  var iframe = win.document.createElement('iframe');
+  iframe.style.width = "100%";
+  iframe.style.height = "100%";
+  iframe.style.border = "none";
+  iframe.style.position = "fixed";
+  iframe.style.top = "0";
+  iframe.style.left = "0";
+  iframe.src = url;
+  win.document.body.appendChild(iframe);
+
+  // Set the custom favicon
+  var link = win.document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/x-icon';
+  link.href = 'Images/Google Drive.png';
+  win.document.head.appendChild(link);
+
+  // Set the custom title
+  win.document.title = 'Google Drive';
+}</script>
+
+<button class="btn" onclick="opeGM()">Google Maps</button>
+<script>function opeGM() {
+  var win = window.open();
+  var url = "Settings.html";
+  var iframe = win.document.createElement('iframe');
+  iframe.style.width = "100%";
+  iframe.style.height = "100%";
+  iframe.style.border = "none";
+  iframe.style.position = "fixed";
+  iframe.style.top = "0";
+  iframe.style.left = "0";
+  iframe.src = url;
+  win.document.body.appendChild(iframe);
+
+  // Set the custom favicon
+  var link = win.document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/x-icon';
+  link.href = 'Images/Google Maps.png';
+  win.document.head.appendChild(link);
+
+  // Set the custom title
+  win.document.title = 'Google Maps';
+}</script>
+
+<button class="btn" onclick="opeGM()">Google Meet</button>
+<script>function opeGM() {
+  var win = window.open();
+  var url = "Settings.html";
+  var iframe = win.document.createElement('iframe');
+  iframe.style.width = "100%";
+  iframe.style.height = "100%";
+  iframe.style.border = "none";
+  iframe.style.position = "fixed";
+  iframe.style.top = "0";
+  iframe.style.left = "0";
+  iframe.src = url;
+  win.document.body.appendChild(iframe);
+
+  // Set the custom favicon
+  var link = win.document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/x-icon';
+  link.href = 'Images/Google Meet.png';
+  win.document.head.appendChild(link);
+
+  // Set the custom title
+  win.document.title = 'Google Meet';
+}</script>
+
+<button class="btn" onclick="opeGP()">Google Play</button>
+<script>function opeGP() {
+  var win = window.open();
+  var url = "Settings.html";
+  var iframe = win.document.createElement('iframe');
+  iframe.style.width = "100%";
+  iframe.style.height = "100%";
+  iframe.style.border = "none";
+  iframe.style.position = "fixed";
+  iframe.style.top = "0";
+  iframe.style.left = "0";
+  iframe.src = url;
+  win.document.body.appendChild(iframe);
+
+  // Set the custom favicon
+  var link = win.document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/x-icon';
+  link.href = 'Images/Google Play.png';
+  win.document.head.appendChild(link);
+
+  // Set the custom title
+  win.document.title = 'Google Play';
+}</script>
+
+<button class="btn" onclick="opeGS()">Google Search</button>
+<script>function opeGS() {
+  var win = window.open();
+  var url = "Settings.html";
+  var iframe = win.document.createElement('iframe');
+  iframe.style.width = "100%";
+  iframe.style.height = "100%";
+  iframe.style.border = "none";
+  iframe.style.position = "fixed";
+  iframe.style.top = "0";
+  iframe.style.left = "0";
+  iframe.src = url;
+  win.document.body.appendChild(iframe);
+
+  // Set the custom favicon
+  var link = win.document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/x-icon';
+  link.href = 'Images/Google Search.png';
+  win.document.head.appendChild(link);
+
+  // Set the custom title
+  win.document.title = 'Google Search';
+}</script>
+
+<button class="btn" onclick="opeGT()">Google Translate</button>
+<script>function opeGT() {
+  var win = window.open();
+  var url = "Settings.html";
+  var iframe = win.document.createElement('iframe');
+  iframe.style.width = "100%";
+  iframe.style.height = "100%";
+  iframe.style.border = "none";
+  iframe.style.position = "fixed";
+  iframe.style.top = "0";
+  iframe.style.left = "0";
+  iframe.src = url;
+  win.document.body.appendChild(iframe);
+
+  // Set the custom favicon
+  var link = win.document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/x-icon';
+  link.href = 'Images/Google Translate.png';
+  win.document.head.appendChild(link);
+
+  // Set the custom title
+  win.document.title = 'Google Translate';
+}</script>
+
+<button class="btn" onclick="opeKA()">Khan Academy</button>
+<script>function opeKA() {
+  var win = window.open();
+  var url = "Settings.html";
+  var iframe = win.document.createElement('iframe');
+  iframe.style.width = "100%";
+  iframe.style.height = "100%";
+  iframe.style.border = "none";
+  iframe.style.position = "fixed";
+  iframe.style.top = "0";
+  iframe.style.left = "0";
+  iframe.src = url;
+  win.document.body.appendChild(iframe);
+
+  // Set the custom favicon
+  var link = win.document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/x-icon';
+  link.href = 'Images/Khan Academy.png';
+  win.document.head.appendChild(link);
+
+  // Set the custom title
+  win.document.title = 'Khan Academy | Free Online Courses, Lessons & Practice';
+}</script>
+
+<button class="btn" onclick="opeL()">L Bozo</button>
+<script>function opeL() {
+  var win = window.open();
+  var url = "Settings.html";
+  var iframe = win.document.createElement('iframe');
+  iframe.style.width = "100%";
+  iframe.style.height = "100%";
+  iframe.style.border = "none";
+  iframe.style.position = "fixed";
+  iframe.style.top = "0";
+  iframe.style.left = "0";
+  iframe.src = url;
+  win.document.body.appendChild(iframe);
+
+  // Set the custom favicon
+  var link = win.document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/x-icon';
+  link.href = 'Images/L.png';
+  win.document.head.appendChild(link);
+
+  // Set the custom title
+  win.document.title = 'L Bozo';
+}</script>
+
+<button class="btn" onclick="opeM()">Microsoft</button>
+<script>function opeM() {
+  var win = window.open();
+  var url = "Settings.html";
+  var iframe = win.document.createElement('iframe');
+  iframe.style.width = "100%";
+  iframe.style.height = "100%";
+  iframe.style.border = "none";
+  iframe.style.position = "fixed";
+  iframe.style.top = "0";
+  iframe.style.left = "0";
+  iframe.src = url;
+  win.document.body.appendChild(iframe);
+
+  // Set the custom favicon
+  var link = win.document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/x-icon';
+  link.href = 'Images/Microsoft.png';
+  win.document.head.appendChild(link);
+
+  // Set the custom title
+  win.document.title = 'Microsoft - Cloud, Computers, Apps & Gaming';
+}</script>
+
+<button class="btn" onclick="opeSchoology()">Schoology</button>
+<script>function opeSchoology() {
+  var win = window.open();
+  var url = "Settings.html";
+  var iframe = win.document.createElement('iframe');
+  iframe.style.width = "100%";
+  iframe.style.height = "100%";
+  iframe.style.border = "none";
+  iframe.style.position = "fixed";
+  iframe.style.top = "0";
+  iframe.style.left = "0";
+  iframe.src = url;
+  win.document.body.appendChild(iframe);
+
+  // Set the custom favicon
+  var link = win.document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/x-icon';
+  link.href = 'Images/Schoology.png';
+  win.document.head.appendChild(link);
+
+  // Set the custom title
+  win.document.title = 'Home | Schoology';
+}</script>
+
+<button class="btn" onclick="opeYoutube()">Youtube</button>
+<script>function opeYoutube() {
+  var win = window.open();
+  var url = "Settings.html";
+  var iframe = win.document.createElement('iframe');
+  iframe.style.width = "100%";
+  iframe.style.height = "100%";
+  iframe.style.border = "none";
+  iframe.style.position = "fixed";
+  iframe.style.top = "0";
+  iframe.style.left = "0";
+  iframe.src = url;
+  win.document.body.appendChild(iframe);
+
+  // Set the custom favicon
+  var link = win.document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/x-icon';
+  link.href = 'Images/Youtube.png';
+  win.document.head.appendChild(link);
+
+  // Abominable Games was made by Yeti1o1 this is proof.
+  // Set the custom title
+  win.document.title = 'YouTube';
+}</script>
+</div>
+
+        <hr class="rounded">
+<br>
+<h3> ']' is the panic button. </3>
+
+</div>
+
+
+    </body>
+</html>
