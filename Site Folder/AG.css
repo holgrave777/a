@@ -1,0 +1,186 @@
+            body{
+                background: #334652;
+                color:blue;
+                font-family:'e', Sans-serif;
+            }
+            .search-title{
+                text-align:center;
+                padding:20px;
+            }
+            .special{
+            	text-align:center;
+                padding:10px;
+                color: #0955ed;
+
+            }
+            
+            #Title{
+            	font-size:75px;
+                font-family: cursive;
+                color: #0955ed;
+            }
+            h1{
+                color: #0955ed;
+                text-align: center;
+            	font-size:40px;
+
+            }
+            h3{
+                color: #0955ed;
+                text-align: center;
+            	font-size:30px;
+            }
+            h4{
+                color: #0955ed;
+                text-align: center;
+            	font-size:30px;
+            }
+            h5{
+                color: #0955ed;
+                text-align: center;
+            	font-size:25px;
+                letter-spacing: 0px;
+
+            }
+           table {
+                width: 100%;
+                border-style: Solid;
+                border-color: Black;
+                background-color: Black;
+            	font-size:30px;
+                color: #0955ed;
+                font-family: cursive;
+                text-align: center;
+}
+           .Gametype {
+                width: 100%;
+                border-style: none;
+                border-color: #334652;
+                background-color: #334652;
+            	font-size:20px;
+                color: #0955ed;
+                font-family: cursive;
+                text-align: center;
+}
+
+            .thisis{
+            	font-size:1px;
+                color:#ffffff;
+                font-color: #0955ed;
+                background-color:"blue";
+            }
+.btn-container {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  flex-wrap: wrap; /* Allow wrapping */
+}
+
+.btn {
+  padding: 20px;
+  background-color: black;
+  color: #0955ed;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  letter-spacing: 1.5px;
+  overflow: hidden;
+  transition: 0s;
+  cursor: default;
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 2000;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  margin: 0 10px 15px; /* Adjust margin between buttons */
+  width: calc((100% - 40px) / 3); /* Calculate width for three buttons per row */
+  max-width: 300px; /* Maximum width for each button */
+  text-align: center;
+}
+
+
+            .btn:hover{
+    background: #03e9f4;
+    color: #050801;
+    font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+    margin-center:10%;
+    margin-bottom:10px;
+  font-weight: 680;
+  font-style: normal;
+  font-variation-settings:
+}
+/* to have things in good shape */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.text-submit::after {
+	--m-i: linear-gradient(#000, #000);
+	--m-o: content-box, padding-box;
+
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	padding: var(--border-width);
+	border-radius: var(--border-radius);
+	background-image: conic-gradient(
+	#03e9f4
+	);
+
+	mask-image: var(--m-i), var(--m-i);
+	mask-origin: var(--m-o);
+	mask-clip: var(--m-o);
+	mask-composite: exclude;
+	-webkit-mask-composite: destination-out;
+
+	filter: hue-rotate(0);
+	animation: hue linear 500ms infinite;
+	animation-play-state: paused;
+}
+
+.text-submit:hover::after {
+	animation-play-state: running;
+}
+
+@keyframes hue {
+	to {
+		filter: hue-rotate(1turn);
+	}
+}
+
+/* to have things in good shape */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+        html { 
+            overflow: auto; 
+} 
+          
+        html, 
+        body, 
+        div, 
+        iframe { 
+            margin: 0px; 
+            padding: 0px; 
+            height: 100%; 
+            border: none; 
+} 
+          
+        iframe { 
+            display: block; 
+            width: 100%; 
+            border: none; 
+            overflow-y: auto; 
+            overflow-x: hidden; 
+} 
